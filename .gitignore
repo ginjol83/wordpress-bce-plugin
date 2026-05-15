@@ -1,0 +1,44 @@
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs y temporales
+*.log
+*.tmp
+
+# Configuración de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Archivos de Composer
+/vendor/
+
+# Archivos de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Archivos de WordPress
+wp-config.php
+.htaccess
+
+# Archivos de caché
+*.cache
+*.bak
+*.swp
+
+# Archivos de compilación
+*.min.js
+*.min.css
+*.map
+
+# Archivos de respaldo
+*.zip
+*.tar.gz
+*.rar
+
+# Archivos específicos del plugin
+/languages/*.mo
+/languages/*.po

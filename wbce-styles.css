@@ -1,0 +1,21 @@
+/* wbce-styles.css */
+.wbce-exchange-rates {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.wbce-exchange-rates li {
+    padding: 5px 10px;
+    border-bottom: 1px solid #ddd;
+}
+.wbce-exchange-rates li:last-child {
+    border-bottom: none;
+}
+.wbce-exchange-rates li span.currency {
+    font-weight: bold;
+    color: #0073aa;
+}
+.wbce-exchange-rates li span.value {
+    color: #333;
+}
